@@ -16,7 +16,7 @@ public class PixelArtEditorGUI {
         cursor = new Cursor(gridSize);
         gridPane = new GridPane();
 
-        // Initialize the grid
+
         for (int row = 0; row < gridSize; row++) {
             for (int col = 0; col < gridSize; col++) {
                 Rectangle rect = new Rectangle(40, 40);
